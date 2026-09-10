@@ -63,5 +63,8 @@ Arduino • C/C++ • Embedded Systems • Sensors • Bluetooth Communication �
 The complete Arduino source code is available in DHT.ino.
 
 ## Author
+## Hardware Prototype
+
+![Arduino Bluetooth Car Hardware](photo_2026-09-11_00-58-09.jpg)
 
 Ali Izadi Jahromi
