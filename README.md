@@ -41,6 +41,19 @@ The system was built, programmed, and tested as a functional prototype.
 | DHT11 Signal | Arduino D2 |
 | DHT11 VCC | Arduino 5V |
 | DHT11 GND | Arduino GND |
+
+## Motor & Power Connections
+
+| Connection | Description |
+|---|---|
+| L298N OUT1 / OUT2 | DC motor terminals |
+| L298N IN1 | Arduino D8 |
+| L298N IN2 | Arduino D9 |
+| L298N Motor Supply | 6V battery pack |
+| Arduino GND | Connected to L298N GND |
+| Common Ground | Arduino, L298N, HC-06 and DHT11 share a common ground |
+
+
 ## Bluetooth Commands
 
 | Command | Function |
