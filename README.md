@@ -30,13 +30,17 @@ The system was built, programmed, and tested as a functional prototype.
 
 ## Pin Configuration
 
-| Component | Arduino Pin |
+| Component | Connection |
 |---|---|
-| HC-06 RX/TX communication | D10 / D11 |
-| L298N IN1 | D8 |
-| L298N IN2 | D9 |
-| DHT11 Signal | D2 |
-
+| HC-06 TX | Arduino D10 (SoftwareSerial RX) |
+| HC-06 RX | Arduino D11 (SoftwareSerial TX) via 1 kΩ / 2 kΩ voltage divider |
+| HC-06 VCC | Arduino 5V |
+| HC-06 GND | Arduino GND |
+| L298N IN1 | Arduino D8 |
+| L298N IN2 | Arduino D9 |
+| DHT11 Signal | Arduino D2 |
+| DHT11 VCC | Arduino 5V |
+| DHT11 GND | Arduino GND |
 ## Bluetooth Commands
 
 | Command | Function |
